@@ -50,6 +50,17 @@ public class CellPhone {
         this.owner = owner;
     }
 
+    @Override
+    public String toString() {
+        return "CellPhone{" +
+                "serialNumber=" + serialNumber +
+                ", model='" + model + '\'' +
+                ", carrier='" + carrier + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", owner='" + owner + '\'' +
+                '}';
+    }
+
     public CellPhone() {
         this.serialNumber = 0;
         this.model = "";
