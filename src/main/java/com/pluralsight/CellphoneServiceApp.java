@@ -50,8 +50,6 @@ public class CellphoneServiceApp {
 
 
 
-
-
         /*
         // print values
         System.out.println("Serial number: " + newPhoneWhoDis.getSerialNumber());
