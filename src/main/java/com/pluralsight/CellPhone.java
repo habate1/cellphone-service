@@ -50,6 +50,10 @@ public class CellPhone {
         this.owner = owner;
     }
 
+    public void dial(String phoneNumber) {
+        System.out.println(getOwner() + " phone is calling " + phoneNumber); // this.owner works too
+    }
+
     @Override
     public String toString() {
         return "CellPhone{" +
